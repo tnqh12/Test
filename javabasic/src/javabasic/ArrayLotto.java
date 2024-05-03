@@ -49,6 +49,7 @@ public class ArrayLotto {
 		int[] lotto = new int[7];
 
 		String breakO = "X";
+		// ArrayExer2의 실습 2를 활용
 		for (int o = 0; o < 7; o++) {
 			lotto[o] = scanner.nextInt();
 			if (lotto[o] <= 45 && lotto[o] > 0) {
@@ -66,7 +67,7 @@ public class ArrayLotto {
 				break;
 			}
 		}
-		// ArrayExer2의 실습 2를 활용
+		// StringExer의 33번째 코드를 활용
 		for (int lottos : lotto) {
 			System.out.print(lottos + " ");
 		}
@@ -74,6 +75,7 @@ public class ArrayLotto {
 		System.out.print("로또번호는 >>>");
 		// 2.프로그램에서 랜덤한 숫자를 순서대로 7개 추출
 		// Math.random():0.0<=랜덤실수<1.0
+		//ArrayExer2 실습 1를 활용
 		int[] lottoNumber = new int[7];
 		for (int t = 0; t < 7; t++) {
 			lottoNumber[t] = (int) (Math.random() * 7) + 1;
@@ -111,29 +113,6 @@ public class ArrayLotto {
 			}else{
 				System.out.println("*꽝* 다시 도전해보세요");
 		}
-		
-//			switch (nember) {
-//			case 6:
-//				System.out.println("축하합니다!!!! 1등입니다!!!!!");
-//				break;
-//			case 5:
-//				if (bonus == lottoNumber[6]) {
-//					System.out.println("축하합니다!! 2등입니다!!");
-//				} else {
-//					System.out.println("축하합니다! 3등입니다!");
-//				}
-//				break;
-//			case 4:
-//				System.out.println("아깝게도 4등입니다");
-//				break;
-//			case 3:
-//				System.out.println("아쉽네요 5등입니다");
-//				break;
-//			default:
-//				System.out.println("*꽝* 다시 도전해보세요");
-//			}
-		
-		
 		
 	}//main
 }//class
