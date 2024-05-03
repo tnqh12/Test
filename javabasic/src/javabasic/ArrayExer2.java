@@ -88,7 +88,7 @@ public class ArrayExer2 {
 //			pAgg[h][0]= 첫번째 배열 1번째 위치에 scoreArr2[0][0]= '100 +됨'
 //			sAgg[j][0]+=scoreArr2[h][j]; 이것도 비슷함
 //			System.out.printf("%10d",100); 출력
-//중괄호 만나서 for2로 돌아가 다시실행 이때 j는 1늘어남
+//중괄호 만나서 for2로 돌아가 다시실행 이때 j는 1늘어남	
 
 			
 		}
