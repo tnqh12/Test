@@ -78,7 +78,7 @@ public class ArrayLotto {
 		//ArrayExer2 실습 1를 활용
 		int[] lottoNumber = new int[7];
 		for (int t = 0; t < 7; t++) {
-			lottoNumber[t] = (int) (Math.random() * 7) + 1;
+			lottoNumber[t] = (int) (Math.random() * 45) + 1;
 			for (int h = 0; h < t; h++) {
 				if (lottoNumber[t] == lottoNumber[h]) {
 					--t;
