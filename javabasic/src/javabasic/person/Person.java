@@ -56,5 +56,10 @@ public class Person {
 			return false;
 		}
 	}
+	
+	@Override
+	public String toString() {
+		return this.name + "님은 " + this.age + "살 입니다";
+	}
 
 }

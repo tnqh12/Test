@@ -27,7 +27,8 @@ public class PersonMain {
 			System.out.println(method.getName());
 		}
 		
-		
+		System.out.println(p1.toString());
+		System.out.println(p1);
 		
 		
 		
