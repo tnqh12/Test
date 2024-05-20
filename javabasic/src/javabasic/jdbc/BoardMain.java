@@ -32,10 +32,10 @@ public class BoardMain {
 //				System.out.println("등록 성공");
 //			}
 				//2.목록
-				List<Board>boardList = bm.listBoard();
-				for(Board board : boardList) {
-					System.out.println(board);
-				}
+//				List<Board>boardList = bm.listBoard();
+//				for(Board board : boardList) {
+//					System.out.println(board);
+//				}
 				
 				
 			//3. 수정
