@@ -21,7 +21,6 @@ public class TodoGUI extends JFrame{
 		 todoLogic = new TodoLogic();
 		init();
 	}
-	 
 	public static void main(String[] args) {
 		new TodoGUI();
 	}//main
