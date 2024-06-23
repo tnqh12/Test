@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="css/jsquiz2.css">
+    <title>jsquiz_이수보</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="html2">
+            <div id="top">
+                <h1>이수보의 간단 퀴즈</h1>
+            </div>
+            <div class="quiz-pane">
+                <h2 id="question"></h2>
+                <div id="answerdiv" style="display:none;">
+                    <label for="answertxt">답:</label>
+                    <input id="answertxt" type="text" placeholder="여기다 적어 주세요">
+                    <input id="answerbtn" class="answerbtn1" type="button" value="제출">
+                </div>
+                <img id="jquser" src="img/player.png"/>
+                <img id="jq2user" src="img/player2.png" style="display:none;"/>
+                <img id="jqtable" src="img/qTable.png">
+                <button id="quizBtn">Quiz</button>
+                <button id="skipBtn">건너뛰기</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jsquiz2.js"></script>
+</body>
+</html>
